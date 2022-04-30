@@ -15,7 +15,7 @@ struct CloudManager {
   
   /// CloudKit 콘솔 > Schema > Record Types
   private let recordType = "Todo"
-  private let containerName = "iCloud.com.jake.ExCloud"
+  private let containerName = "iCloud.com.minpa.ExiCloud"
   
   func fetchTasks(completion: @escaping ([CKRecord]?, FetchError) -> Void) {
       

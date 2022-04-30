@@ -70,7 +70,7 @@ class AddTaskController: UIViewController {
   
   @objc private func addTask() {
     guard let task = textField.text, !task.isEmpty else {
-      delegate?.addedTask(nil, error: .addingError)
+        delegate?.addedTask(nil, error: .addingError)
       self.navigationController?.popViewController(animated: false)
       return
     }
